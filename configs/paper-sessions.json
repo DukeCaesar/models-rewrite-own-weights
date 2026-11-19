@@ -1,0 +1,162 @@
+{
+  "paper": "https://arxiv.org/html/2611.21885",
+  "jobs": [
+    {
+      "name": "protocol1-2B-self",
+      "size": "2B",
+      "protocol": 1,
+      "repair": false,
+      "short": false,
+      "turn_seed": 0
+    },
+    {
+      "name": "protocol1-2B-repair",
+      "size": "2B",
+      "protocol": 1,
+      "repair": true,
+      "short": false,
+      "turn_seed": 0
+    },
+    {
+      "name": "protocol1-4B-self",
+      "size": "4B",
+      "protocol": 1,
+      "repair": false,
+      "short": false,
+      "turn_seed": 0
+    },
+    {
+      "name": "protocol1-4B-repair",
+      "size": "4B",
+      "protocol": 1,
+      "repair": true,
+      "short": false,
+      "turn_seed": 0
+    },
+    {
+      "name": "protocol1-9B-self",
+      "size": "9B",
+      "protocol": 1,
+      "repair": false,
+      "short": false,
+      "turn_seed": 0
+    },
+    {
+      "name": "protocol1-9B-repair",
+      "size": "9B",
+      "protocol": 1,
+      "repair": true,
+      "short": false,
+      "turn_seed": 0
+    },
+    {
+      "name": "protocol1-27B-self",
+      "size": "27B",
+      "protocol": 1,
+      "repair": false,
+      "short": false,
+      "turn_seed": 0
+    },
+    {
+      "name": "protocol1-27B-repair",
+      "size": "27B",
+      "protocol": 1,
+      "repair": true,
+      "short": false,
+      "turn_seed": 0
+    },
+    {
+      "name": "protocol1-27B-self-short",
+      "size": "27B",
+      "protocol": 1,
+      "repair": false,
+      "short": true,
+      "turn_seed": 0
+    },
+    {
+      "name": "protocol2-27B-session1",
+      "size": "27B",
+      "protocol": 2,
+      "repair": false,
+      "short": false,
+      "turn_seed": 0
+    },
+    {
+      "name": "protocol2-27B-session2",
+      "size": "27B",
+      "protocol": 2,
+      "repair": false,
+      "short": false,
+      "turn_seed": 1
+    },
+    {
+      "name": "protocol2-27B-session3",
+      "size": "27B",
+      "protocol": 2,
+      "repair": false,
+      "short": false,
+      "turn_seed": 2
+    },
+    {
+      "name": "protocol2-27B-session4",
+      "size": "27B",
+      "protocol": 2,
+      "repair": false,
+      "short": false,
+      "turn_seed": 3
+    },
+    {
+      "name": "protocol2-27B-session5",
+      "size": "27B",
+      "protocol": 2,
+      "repair": false,
+      "short": false,
+      "turn_seed": 4
+    },
+    {
+      "name": "protocol2-27B-session6",
+      "size": "27B",
+      "protocol": 2,
+      "repair": false,
+      "short": false,
+      "turn_seed": 5
+    },
+    {
+      "name": "protocol2-27B-session7",
+      "size": "27B",
+      "protocol": 2,
+      "repair": false,
+      "short": false,
+      "turn_seed": 6
+    },
+    {
+      "name": "protocol2-27B-session8",
+      "size": "27B",
+      "protocol": 2,
+      "repair": false,
+      "short": false,
+      "turn_seed": 7
+    }
+  ],
+  "damage_seed": 0,
+  "damage_seed_note": "Reconstruction choice; original seed unavailable",
+  "damage_locations": {
+    "2B": [
+      11,
+      1724
+    ],
+    "4B": [
+      15,
+      1660
+    ],
+    "9B": [
+      15,
+      3420
+    ],
+    "27B": [
+      30,
+      3068
+    ]
+  },
+  "policy": "Each session starts from base weights. A submitted protocol-2 edit replaces the model in use; withdrawal retains it. Edits are never composed."
+}

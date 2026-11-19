@@ -1,0 +1,189 @@
+{
+  "_id": "66965df1e5b302c738b3c6e1",
+  "id": "Hothan/OlympiadBench",
+  "author": "Hothan",
+  "sha": "91184b52131e7fc9455fef848035173aea8cc01a",
+  "lastModified": "2025-06-08T16:20:05.000Z",
+  "private": false,
+  "gated": false,
+  "disabled": false,
+  "tags": [
+    "task_categories:question-answering",
+    "task_categories:visual-question-answering",
+    "language:zh",
+    "language:en",
+    "license:apache-2.0",
+    "size_categories:1K<n<10K",
+    "format:parquet",
+    "modality:image",
+    "modality:text",
+    "library:datasets",
+    "library:pandas",
+    "library:mlcroissant",
+    "library:polars",
+    "arxiv:2402.14008",
+    "region:us",
+    "math",
+    "physics"
+  ],
+  "description": "\n\t\n\t\t\n\t\n\t\n\t\tOlympiadBench: A Challenging Benchmark for Promoting AGI with Olympiad-Level Bilingual Multimodal Scientific Problems[ACL 2024]\n\t\n\n\ud83d\udcd6 arXiv | GitHub\nNote: We have made adjustments to the image content in the multimodal portion of the dataset and fixed previous issues where some images in the English physics subset were not displayed properly. If your usage involves images, please re-download the dataset (we recommend all users to download the latest version).\nAdditionally, some\u2026 See the full description on the dataset page: https://huggingface.co/datasets/Hothan/OlympiadBench.",
+  "downloads": 18430,
+  "likes": 52,
+  "cardData": {
+    "configs": [
+      {
+        "config_name": "OE_MM_maths_en_COMP",
+        "data_files": "OlympiadBench/OE_MM_maths_en_COMP/OE_MM_maths_en_COMP.parquet"
+      },
+      {
+        "config_name": "OE_MM_maths_zh_CEE",
+        "data_files": "OlympiadBench/OE_MM_maths_zh_CEE/OE_MM_maths_zh_CEE.parquet"
+      },
+      {
+        "config_name": "OE_MM_maths_zh_COMP",
+        "data_files": "OlympiadBench/OE_MM_maths_zh_COMP/OE_MM_maths_zh_COMP.parquet"
+      },
+      {
+        "config_name": "OE_MM_physics_en_COMP",
+        "data_files": "OlympiadBench/OE_MM_physics_en_COMP/OE_MM_physics_en_COMP.parquet"
+      },
+      {
+        "config_name": "OE_MM_physics_zh_CEE",
+        "data_files": "OlympiadBench/OE_MM_physics_zh_CEE/OE_MM_physics_zh_CEE.parquet"
+      },
+      {
+        "config_name": "OE_TO_maths_en_COMP",
+        "data_files": "OlympiadBench/OE_TO_maths_en_COMP/OE_TO_maths_en_COMP.parquet"
+      },
+      {
+        "config_name": "OE_TO_maths_zh_CEE",
+        "data_files": "OlympiadBench/OE_TO_maths_zh_CEE/OE_TO_maths_zh_CEE.parquet"
+      },
+      {
+        "config_name": "OE_TO_maths_zh_COMP",
+        "data_files": "OlympiadBench/OE_TO_maths_zh_COMP/OE_TO_maths_zh_COMP.parquet"
+      },
+      {
+        "config_name": "OE_TO_physics_en_COMP",
+        "data_files": "OlympiadBench/OE_TO_physics_en_COMP/OE_TO_physics_en_COMP.parquet"
+      },
+      {
+        "config_name": "OE_TO_physics_zh_CEE",
+        "data_files": "OlympiadBench/OE_TO_physics_zh_CEE/OE_TO_physics_zh_CEE.parquet"
+      },
+      {
+        "config_name": "TP_MM_maths_en_COMP",
+        "data_files": "OlympiadBench/TP_MM_maths_en_COMP/TP_MM_maths_en_COMP.parquet"
+      },
+      {
+        "config_name": "TP_MM_maths_zh_CEE",
+        "data_files": "OlympiadBench/TP_MM_maths_zh_CEE/TP_MM_maths_zh_CEE.parquet"
+      },
+      {
+        "config_name": "TP_MM_maths_zh_COMP",
+        "data_files": "OlympiadBench/TP_MM_maths_zh_COMP/TP_MM_maths_zh_COMP.parquet"
+      },
+      {
+        "config_name": "TP_MM_physics_en_COMP",
+        "data_files": "OlympiadBench/TP_MM_physics_en_COMP/TP_MM_physics_en_COMP.parquet"
+      },
+      {
+        "config_name": "TP_TO_maths_en_COMP",
+        "data_files": "OlympiadBench/TP_TO_maths_en_COMP/TP_TO_maths_en_COMP.parquet"
+      },
+      {
+        "config_name": "TP_TO_maths_zh_CEE",
+        "data_files": "OlympiadBench/TP_TO_maths_zh_CEE/TP_TO_maths_zh_CEE.parquet"
+      },
+      {
+        "config_name": "TP_TO_maths_zh_COMP",
+        "data_files": "OlympiadBench/TP_TO_maths_zh_COMP/TP_TO_maths_zh_COMP.parquet"
+      },
+      {
+        "config_name": "TP_TO_physics_en_COMP",
+        "data_files": "OlympiadBench/TP_TO_physics_en_COMP/TP_TO_physics_en_COMP.parquet"
+      }
+    ],
+    "license": "apache-2.0",
+    "task_categories": [
+      "question-answering",
+      "visual-question-answering"
+    ],
+    "language": [
+      "zh",
+      "en"
+    ],
+    "tags": [
+      "math",
+      "physics"
+    ],
+    "pretty_name": "olympiadbench",
+    "size_categories": [
+      "10M<n<100M"
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "OlympiadBench/OE_MM_maths_en_COMP/OE_MM_maths_en_COMP.parquet"
+    },
+    {
+      "rfilename": "OlympiadBench/OE_MM_maths_zh_CEE/OE_MM_maths_zh_CEE.parquet"
+    },
+    {
+      "rfilename": "OlympiadBench/OE_MM_maths_zh_COMP/OE_MM_maths_zh_COMP.parquet"
+    },
+    {
+      "rfilename": "OlympiadBench/OE_MM_physics_en_COMP/OE_MM_physics_en_COMP.parquet"
+    },
+    {
+      "rfilename": "OlympiadBench/OE_MM_physics_zh_CEE/OE_MM_physics_zh_CEE.parquet"
+    },
+    {
+      "rfilename": "OlympiadBench/OE_TO_maths_en_COMP/OE_TO_maths_en_COMP.parquet"
+    },
+    {
+      "rfilename": "OlympiadBench/OE_TO_maths_zh_CEE/OE_TO_maths_zh_CEE.parquet"
+    },
+    {
+      "rfilename": "OlympiadBench/OE_TO_maths_zh_COMP/OE_TO_maths_zh_COMP.parquet"
+    },
+    {
+      "rfilename": "OlympiadBench/OE_TO_physics_en_COMP/OE_TO_physics_en_COMP.parquet"
+    },
+    {
+      "rfilename": "OlympiadBench/OE_TO_physics_zh_CEE/OE_TO_physics_zh_CEE.parquet"
+    },
+    {
+      "rfilename": "OlympiadBench/TP_MM_maths_en_COMP/TP_MM_maths_en_COMP.parquet"
+    },
+    {
+      "rfilename": "OlympiadBench/TP_MM_maths_zh_CEE/TP_MM_maths_zh_CEE.parquet"
+    },
+    {
+      "rfilename": "OlympiadBench/TP_MM_maths_zh_COMP/TP_MM_maths_zh_COMP.parquet"
+    },
+    {
+      "rfilename": "OlympiadBench/TP_MM_physics_en_COMP/TP_MM_physics_en_COMP.parquet"
+    },
+    {
+      "rfilename": "OlympiadBench/TP_TO_maths_en_COMP/TP_TO_maths_en_COMP.parquet"
+    },
+    {
+      "rfilename": "OlympiadBench/TP_TO_maths_zh_CEE/TP_TO_maths_zh_CEE.parquet"
+    },
+    {
+      "rfilename": "OlympiadBench/TP_TO_maths_zh_COMP/TP_TO_maths_zh_COMP.parquet"
+    },
+    {
+      "rfilename": "OlympiadBench/TP_TO_physics_en_COMP/TP_TO_physics_en_COMP.parquet"
+    },
+    {
+      "rfilename": "README.md"
+    }
+  ],
+  "createdAt": "2024-07-16T11:48:01.000Z",
+  "usedStorage": 200540251
+}

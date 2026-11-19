@@ -1,0 +1,31 @@
+{
+  "math500": {
+    "rows": 500,
+    "exact_overlap_pool_ids": [
+      "deepscaler-006976",
+      "deepscaler-007141",
+      "deepscaler-007202"
+    ]
+  },
+  "aime2024": {
+    "rows": 30,
+    "exact_overlap_pool_ids": []
+  },
+  "aime2025": {
+    "rows": 30,
+    "exact_overlap_pool_ids": []
+  },
+  "hmmt2025": {
+    "rows": 30,
+    "exact_overlap_pool_ids": []
+  },
+  "amc2023": {
+    "rows": 40,
+    "exact_overlap_pool_ids": []
+  },
+  "olympiadbench": {
+    "rows": 8476,
+    "exact_overlap_pool_ids": []
+  },
+  "status": "INCOMPLETE: GPQA authorization and semantic overlap review outstanding"
+}

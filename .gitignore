@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+runs/
+checkpoints/
+data/raw/
+data/*.jsonl
+data/*.source.json
+data/splits/
+data/exclusion-raw/
+data/exclusions/
+data/image-raw/
+data/image-benchmarks/
+data/image-evaluation/

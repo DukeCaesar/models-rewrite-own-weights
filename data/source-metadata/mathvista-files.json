@@ -1,0 +1,80 @@
+[
+  {
+    "type": "directory",
+    "oid": "85b2b1a57f00abfb8540b06c12601b04e28a3a31",
+    "size": 0,
+    "path": "data"
+  },
+  {
+    "type": "file",
+    "oid": "28df5f900b358436f0267334b3e3e9af33f917ba",
+    "size": 2307,
+    "path": ".gitattributes"
+  },
+  {
+    "type": "file",
+    "oid": "3fa1a05f0b4c20392be00d22abd3a8b7d0fb51e2",
+    "size": 11600,
+    "path": "README.md"
+  },
+  {
+    "type": "file",
+    "oid": "759f97f06deaf1dad8343daff7d8e1baa897e389",
+    "size": 2127193,
+    "path": "annot_testmini.json"
+  },
+  {
+    "type": "file",
+    "oid": "030994700fa688df7d526b512b9e5d23550f1ba2",
+    "size": 357852357,
+    "lfs": {
+      "oid": "4212a3a9cbbaa08f314e0a3ca88421562caf97c95144dcf9e79fba0dd204e94d",
+      "size": 357852357,
+      "pointerSize": 134
+    },
+    "xetHash": "a4568a45e6b0a7cc1a85a5665418634e1588160c98a750bbe5372c47c84bb297",
+    "path": "data/test-00000-of-00002-6b81bd7f7e2065e6.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "ee8e5642dc01ad80e83b34859857e2466af615f9",
+    "size": 386399007,
+    "lfs": {
+      "oid": "039934fda97bf910613c885ca13d3562d73c4a5a99f6100b5a230d6329de9e7a",
+      "size": 386399007,
+      "pointerSize": 134
+    },
+    "xetHash": "d44504435116d59dab8c190d17fdc461e1802ac8375ec6831e7ab0bb31f900da",
+    "path": "data/test-00001-of-00002-6a611c71596db30f.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "dd4138adf05aa42628d955f661117ed99f0e8cf0",
+    "size": 141568126,
+    "lfs": {
+      "oid": "373f6c0b412a9be2cec36711cee724e03f4c5db6908f3c13db903aa9694d4f2d",
+      "size": 141568126,
+      "pointerSize": 134
+    },
+    "xetHash": "2e40f3ec54dca3d261cf41c8ea9bbf2008731f02470012d4b73b1ee5b5978485",
+    "path": "data/testmini-00000-of-00001-725687bf7a18d64b.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "2fa6d40049695152ee4841c613d5f1083779d12b",
+    "size": 866114727,
+    "lfs": {
+      "oid": "967b506d6867910f49c4bd7a54b5502b76b2b07e17efffce437f114d41eb09bc",
+      "size": 866114727,
+      "pointerSize": 134
+    },
+    "xetHash": "97274c1d10d80ca2d64162360dabc9ed0b874fa08ff0d9681355c41e33879ed7",
+    "path": "images.zip"
+  },
+  {
+    "type": "file",
+    "oid": "c5751ca5f54f437f40815fdaa319c486c1f55c55",
+    "size": 13497,
+    "path": "source.json"
+  }
+]

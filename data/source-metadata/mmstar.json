@@ -1,0 +1,124 @@
+{
+  "_id": "660bac380b7d615a5606e567",
+  "id": "Lin-Chen/MMStar",
+  "author": "Lin-Chen",
+  "sha": "bc98d668301da7b14f648724866e57302778ab27",
+  "lastModified": "2024-04-07T08:15:45.000Z",
+  "private": false,
+  "gated": false,
+  "disabled": false,
+  "tags": [
+    "task_categories:multiple-choice",
+    "task_categories:question-answering",
+    "task_categories:visual-question-answering",
+    "language:en",
+    "size_categories:1K<n<10K",
+    "format:parquet",
+    "modality:image",
+    "modality:text",
+    "library:datasets",
+    "library:pandas",
+    "library:mlcroissant",
+    "library:polars",
+    "arxiv:2403.20330",
+    "region:us"
+  ],
+  "description": "\n\t\n\t\t\n\t\n\t\n\t\tMMStar (Are We on the Right Way for Evaluating Large Vision-Language Models?)\n\t\n\n\ud83c\udf10 Homepage | \ud83e\udd17 Dataset | \ud83e\udd17 Paper | \ud83d\udcd6 arXiv | GitHub\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\nAs shown in the figure below, existing benchmarks lack consideration of the vision dependency of evaluation samples and potential data leakage from LLMs' and LVLMs' training data.\n\n     \n\n\nTherefore, we introduce MMStar: an elite vision-indispensible multi-modal benchmark, aiming to ensure each curated sample\u2026 See the full description on the dataset page: https://huggingface.co/datasets/Lin-Chen/MMStar.",
+  "downloads": 26273,
+  "likes": 55,
+  "cardData": {
+    "task_categories": [
+      "multiple-choice",
+      "question-answering",
+      "visual-question-answering"
+    ],
+    "language": [
+      "en"
+    ],
+    "size_categories": [
+      "1K<n<10K"
+    ],
+    "configs": [
+      {
+        "config_name": "val",
+        "data_files": [
+          {
+            "split": "val",
+            "path": "mmstar.parquet"
+          }
+        ]
+      }
+    ],
+    "dataset_info": [
+      {
+        "config_name": "val",
+        "features": [
+          {
+            "name": "index",
+            "dtype": "int64"
+          },
+          {
+            "name": "question",
+            "dtype": "string"
+          },
+          {
+            "name": "image",
+            "dtype": "image"
+          },
+          {
+            "name": "answer",
+            "dtype": "string"
+          },
+          {
+            "name": "category",
+            "dtype": "string"
+          },
+          {
+            "name": "l2_category",
+            "dtype": "string"
+          },
+          {
+            "name": "meta_info",
+            "struct": [
+              {
+                "name": "source",
+                "dtype": "string"
+              },
+              {
+                "name": "split",
+                "dtype": "string"
+              },
+              {
+                "name": "image_path",
+                "dtype": "string"
+              }
+            ]
+          }
+        ],
+        "splits": [
+          {
+            "name": "val",
+            "num_bytes": 44831593,
+            "num_examples": 1500
+          }
+        ]
+      }
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "MMStar.tsv"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "mmstar.parquet"
+    }
+  ],
+  "createdAt": "2024-04-02T06:56:56.000Z",
+  "usedStorage": 139298941
+}

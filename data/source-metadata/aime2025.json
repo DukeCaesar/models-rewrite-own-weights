@@ -1,0 +1,93 @@
+{
+  "_id": "681f84096c2c47b4270080cc",
+  "id": "MathArena/aime_2025",
+  "author": "MathArena",
+  "sha": "c94da77eb22bbd6439e62a323bec18493a421302",
+  "lastModified": "2026-05-15T17:06:24.000Z",
+  "private": false,
+  "gated": false,
+  "disabled": false,
+  "tags": [
+    "language:en",
+    "license:cc-by-nc-sa-4.0",
+    "size_categories:n<1K",
+    "format:parquet",
+    "modality:tabular",
+    "modality:text",
+    "library:datasets",
+    "library:pandas",
+    "library:polars",
+    "library:mlcroissant",
+    "arxiv:2605.00674",
+    "region:us"
+  ],
+  "description": "\n\t\n\t\t\n\t\n\t\n\t\tHomepage and repository\n\t\n\n\nHomepage: https://matharena.ai/\nRepository: https://github.com/eth-sri/matharena\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Summary\n\t\n\nThis dataset contains the questions from AIME 2025 used for the MathArena Leaderboard\n\n\t\n\t\t\n\t\n\t\n\t\tData Fields\n\t\n\nThe dataset contains the following fields:\n\nproblem_idx (int64): Problem index within the corresponding MathArena benchmark.\nproblem (string): Problem statement, usually stored as LaTeX source.\nanswer (int64): Gold final answer.\u2026 See the full description on the dataset page: https://huggingface.co/datasets/MathArena/aime_2025.",
+  "downloads": 29837,
+  "likes": 18,
+  "cardData": {
+    "dataset_info": {
+      "features": [
+        {
+          "name": "problem_idx",
+          "dtype": "int64"
+        },
+        {
+          "name": "problem",
+          "dtype": "string"
+        },
+        {
+          "name": "answer",
+          "dtype": "int64"
+        },
+        {
+          "name": "problem_type",
+          "sequence": "string"
+        }
+      ],
+      "splits": [
+        {
+          "name": "train",
+          "num_bytes": 16990,
+          "num_examples": 30
+        }
+      ],
+      "download_size": 14313,
+      "dataset_size": 16990
+    },
+    "configs": [
+      {
+        "config_name": "default",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/train-*"
+          }
+        ]
+      }
+    ],
+    "license": "cc-by-nc-sa-4.0",
+    "language": [
+      "en"
+    ],
+    "pretty_name": "AIME 2025",
+    "size_categories": [
+      "n<1K"
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "data/train-00000-of-00001.parquet"
+    },
+    {
+      "rfilename": "eval.yaml"
+    }
+  ],
+  "createdAt": "2025-05-10T16:51:21.000Z",
+  "usedStorage": 55861
+}

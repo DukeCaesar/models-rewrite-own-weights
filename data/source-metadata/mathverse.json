@@ -1,0 +1,237 @@
+{
+  "_id": "65fc62111d61c12c818f01ee",
+  "id": "AI4Math/MathVerse",
+  "author": "AI4Math",
+  "sha": "3bc86196678bad115a923d2851c6821dbe235939",
+  "lastModified": "2025-05-15T05:58:46.000Z",
+  "private": false,
+  "gated": false,
+  "disabled": false,
+  "tags": [
+    "task_categories:multiple-choice",
+    "task_categories:question-answering",
+    "task_categories:visual-question-answering",
+    "language:en",
+    "license:mit",
+    "size_categories:1K<n<10K",
+    "format:parquet",
+    "modality:image",
+    "modality:text",
+    "library:datasets",
+    "library:pandas",
+    "library:mlcroissant",
+    "library:polars",
+    "arxiv:2403.14624",
+    "region:us"
+  ],
+  "description": "\n\t\n\t\t\n\t\n\t\n\t\tDataset Card for MathVerse\n\t\n\n\nDataset Description\nPaper Information\nDataset Examples\nLeaderboard\nCitation\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\nThe capabilities of Multi-modal Large Language Models (MLLMs) in visual math problem-solving remain insufficiently evaluated and understood. We investigate current benchmarks to incorporate excessive visual content within textual questions, which potentially assist MLLMs in deducing answers without truly interpreting the input diagrams.\u2026 See the full description on the dataset page: https://huggingface.co/datasets/AI4Math/MathVerse.",
+  "downloads": 9207,
+  "likes": 72,
+  "cardData": {
+    "task_categories": [
+      "multiple-choice",
+      "question-answering",
+      "visual-question-answering"
+    ],
+    "language": [
+      "en"
+    ],
+    "size_categories": [
+      "1K<n<10K"
+    ],
+    "configs": [
+      {
+        "config_name": "testmini",
+        "data_files": [
+          {
+            "split": "testmini",
+            "path": "testmini.parquet"
+          }
+        ]
+      },
+      {
+        "config_name": "testmini_text_only",
+        "data_files": [
+          {
+            "split": "testmini_text_only",
+            "path": "testmini_text_only.parquet"
+          }
+        ]
+      }
+    ],
+    "dataset_info": [
+      {
+        "config_name": "testmini",
+        "features": [
+          {
+            "name": "sample_index",
+            "dtype": "string"
+          },
+          {
+            "name": "problem_index",
+            "dtype": "string"
+          },
+          {
+            "name": "problem_version",
+            "dtype": "string"
+          },
+          {
+            "name": "question",
+            "dtype": "string"
+          },
+          {
+            "name": "image",
+            "dtype": "image"
+          },
+          {
+            "name": "answer",
+            "dtype": "string"
+          },
+          {
+            "name": "question_type",
+            "dtype": "string"
+          },
+          {
+            "name": "metadata",
+            "struct": [
+              {
+                "name": "split",
+                "dtype": "string"
+              },
+              {
+                "name": "source",
+                "dtype": "string"
+              },
+              {
+                "name": "subject",
+                "dtype": "string"
+              },
+              {
+                "name": "subfield",
+                "dtype": "string"
+              }
+            ]
+          },
+          {
+            "name": "query_wo",
+            "dtype": "string"
+          },
+          {
+            "name": "query_cot",
+            "dtype": "string"
+          },
+          {
+            "name": "question_for_eval",
+            "dtype": "string"
+          }
+        ],
+        "splits": [
+          {
+            "name": "testmini",
+            "num_bytes": 166789963,
+            "num_examples": 3940
+          }
+        ]
+      },
+      {
+        "config_name": "testmini_text_only",
+        "features": [
+          {
+            "name": "sample_index",
+            "dtype": "string"
+          },
+          {
+            "name": "problem_index",
+            "dtype": "string"
+          },
+          {
+            "name": "problem_version",
+            "dtype": "string"
+          },
+          {
+            "name": "question",
+            "dtype": "string"
+          },
+          {
+            "name": "image",
+            "dtype": "string"
+          },
+          {
+            "name": "answer",
+            "dtype": "string"
+          },
+          {
+            "name": "question_type",
+            "dtype": "string"
+          },
+          {
+            "name": "metadata",
+            "struct": [
+              {
+                "name": "split",
+                "dtype": "string"
+              },
+              {
+                "name": "source",
+                "dtype": "string"
+              },
+              {
+                "name": "subject",
+                "dtype": "string"
+              },
+              {
+                "name": "subfield",
+                "dtype": "string"
+              }
+            ]
+          },
+          {
+            "name": "query_wo",
+            "dtype": "string"
+          },
+          {
+            "name": "query_cot",
+            "dtype": "string"
+          },
+          {
+            "name": "question_for_eval",
+            "dtype": "string"
+          }
+        ],
+        "splits": [
+          {
+            "name": "testmini_text_only",
+            "num_bytes": 250959,
+            "num_examples": 788
+          }
+        ]
+      }
+    ],
+    "license": "mit"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "images.zip"
+    },
+    {
+      "rfilename": "testmini.json"
+    },
+    {
+      "rfilename": "testmini.parquet"
+    },
+    {
+      "rfilename": "testmini_text_only.json"
+    },
+    {
+      "rfilename": "testmini_text_only.parquet"
+    }
+  ],
+  "createdAt": "2024-03-21T16:36:33.000Z",
+  "usedStorage": 1080633608
+}

@@ -1,0 +1,218 @@
+[
+  {
+    "type": "file",
+    "oid": "11942495bc21d09238800e14925ef44e057f3601",
+    "size": 1811941,
+    "lfs": {
+      "oid": "fd73f42f377e4f3200a64740f09df44d4c8408b9daba1dbfb317a4ce9d05c0ad",
+      "size": 1811941,
+      "pointerSize": 132
+    },
+    "xetHash": "42459ce582473a1b97b88e468c7ae3b0989fbdce6402e3dcd321f6e26d0a57db",
+    "path": "OlympiadBench/OE_MM_maths_en_COMP/OE_MM_maths_en_COMP.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "79ea5d4e691bc39e5c483d9f79975e43968b2d1f",
+    "size": 39174886,
+    "lfs": {
+      "oid": "3d997a5f7ba36be9e7877c1269941ccbf3108739be70581aa98bba77c8d69c3f",
+      "size": 39174886,
+      "pointerSize": 133
+    },
+    "xetHash": "4cda96958465df0e10bf602f3eb5aab87093db092a4dc775a2ec396c40edc11b",
+    "path": "OlympiadBench/OE_MM_maths_zh_CEE/OE_MM_maths_zh_CEE.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "8c26f4bee347dcefaf620f88d6a740c478f7fce9",
+    "size": 725501,
+    "lfs": {
+      "oid": "19285e7f37d05f00edbf5d8584ac6112b0a2699dd9954f95557a7cb46b2cd8b2",
+      "size": 725501,
+      "pointerSize": 131
+    },
+    "xetHash": "1db2dbcc362b039e84c3ea51f7ba1b975af071ef110158ba28a2b4aa577e6ac2",
+    "path": "OlympiadBench/OE_MM_maths_zh_COMP/OE_MM_maths_zh_COMP.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "bea79c85e623b5ed5afeb42844bd78323bfd3cca",
+    "size": 9191812,
+    "lfs": {
+      "oid": "d65745d5d52d9809f87356edfd1ca52187f140db9e0f09d9ddcfd7b93db60d5b",
+      "size": 9191812,
+      "pointerSize": 132
+    },
+    "xetHash": "8c1e02ed44b0b475c2db8fc9e09e98308ac6da25895abe6404f8bda6cf18e602",
+    "path": "OlympiadBench/OE_MM_physics_en_COMP/OE_MM_physics_en_COMP.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "08ac6fe45ef7b76d938b2bb42ecad1d8f005a982",
+    "size": 30174750,
+    "lfs": {
+      "oid": "483c644f382c90179397d9b0c47480ded081074af393903e69baee3a4ad65faa",
+      "size": 30174750,
+      "pointerSize": 133
+    },
+    "xetHash": "153c5b8ef356038536e0dba4a75d2a5e80a5af63e1a2e76a4c64e89104952895",
+    "path": "OlympiadBench/OE_MM_physics_zh_CEE/OE_MM_physics_zh_CEE.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "52b668bb715e26145fab4b450f0d3125c71a3c9a",
+    "size": 723850,
+    "lfs": {
+      "oid": "7c17ca2662b3ea77cddcb66a64b04ad9b53d3d32fa372d444a4884739eb1638d",
+      "size": 723850,
+      "pointerSize": 131
+    },
+    "xetHash": "e3a6768ad3101a1f370ead5a0d4f92234df46e9ac1b1931514e6cd267dccda07",
+    "path": "OlympiadBench/OE_TO_maths_en_COMP/OE_TO_maths_en_COMP.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "4f6927c8ab6d7d4f4ac6161e16ff57e9f1c1004a",
+    "size": 662061,
+    "lfs": {
+      "oid": "1a0164d2179c88be45c831d0c70dd0b95cf904d7b2d0f10f5f954f6c86e0dac3",
+      "size": 662061,
+      "pointerSize": 131
+    },
+    "xetHash": "c6cb335c264e43c31ec39a46f33a37600a0469ad1055ffe56f1b3e81b678cd25",
+    "path": "OlympiadBench/OE_TO_maths_zh_CEE/OE_TO_maths_zh_CEE.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "632959a84008eafcd9c8881939e09e9aac27603d",
+    "size": 305096,
+    "lfs": {
+      "oid": "b9e461bd6b0ea9c91939d4ecacf27e45f8a76e86e76153c5fd728a31efc5f9d9",
+      "size": 305096,
+      "pointerSize": 131
+    },
+    "xetHash": "e6a5437122624ee9c5dda8bd047553560ce328fb5e50968135c21da0f52247f9",
+    "path": "OlympiadBench/OE_TO_maths_zh_COMP/OE_TO_maths_zh_COMP.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "6bdfcc3057becdc65f538f8950bcb7eaddc819d0",
+    "size": 337513,
+    "lfs": {
+      "oid": "69c45e28ff9d8cf2e385d1b298e9ef2264dfa83755cac956d3e3e7b37e4ce4f6",
+      "size": 337513,
+      "pointerSize": 131
+    },
+    "xetHash": "c8497c4aeb20add17eb1b3a29c95f73a3ef3f8a3f86fdbf2c743e95747cc498e",
+    "path": "OlympiadBench/OE_TO_physics_en_COMP/OE_TO_physics_en_COMP.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "eb587fdcd2b625a2e782b9028b2c58d1ade8884c",
+    "size": 71840,
+    "lfs": {
+      "oid": "b565d268f09f4e6ee3923579e0517a3f0de44d37e3534f5d73cc2fb0d5da2aeb",
+      "size": 71840,
+      "pointerSize": 130
+    },
+    "xetHash": "8b2552e7a3d01b059e4a8dcf8e195ea8aa8557758d0c28339ef03e899a51924d",
+    "path": "OlympiadBench/OE_TO_physics_zh_CEE/OE_TO_physics_zh_CEE.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "baf2cb1c3c3f95136326190e56fc56c5dce85aa2",
+    "size": 635632,
+    "lfs": {
+      "oid": "794e1f680c52f48776e835b5a6d7b00eb1786b12c633fb00d317308c46793053",
+      "size": 635632,
+      "pointerSize": 131
+    },
+    "xetHash": "950f437728a8731834e41e780208cf3ec48adeb7d5abb34add63b3c3a652ddd2",
+    "path": "OlympiadBench/TP_MM_maths_en_COMP/TP_MM_maths_en_COMP.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "5145f41348c8ea38e19059c305569db469651313",
+    "size": 16191791,
+    "lfs": {
+      "oid": "5497eed3fa1a3c1fa55df9ee3004c8c92240f2c07a8f86aac4a8d1d54638c192",
+      "size": 16191791,
+      "pointerSize": 133
+    },
+    "xetHash": "4414fc60928dfd7c0967b3b9d312ac2228c1bbd7521a3bdc8ad90af425256df9",
+    "path": "OlympiadBench/TP_MM_maths_zh_CEE/TP_MM_maths_zh_CEE.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "b526a363628cdcbf90fa9299d98393c42d6ccd88",
+    "size": 1356253,
+    "lfs": {
+      "oid": "44bb753451c68e64bd7ba8769396672ade863cc60fc95ac29647b5f7677f50ee",
+      "size": 1356253,
+      "pointerSize": 132
+    },
+    "xetHash": "f5a2b819217b5eab71eb3845f25c9f128d0507570b1a982dce7cc37ab35caba3",
+    "path": "OlympiadBench/TP_MM_maths_zh_COMP/TP_MM_maths_zh_COMP.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "f0f10f5d15bb418e92153b76c81b4130cbe9cbfa",
+    "size": 681074,
+    "lfs": {
+      "oid": "ae4cf77a72f08c4a9ef3f53854ab0b5cba81d012e816aa085ba0907b63f6c20f",
+      "size": 681074,
+      "pointerSize": 131
+    },
+    "xetHash": "04660433e44f252410cad8429f50e139799b2d19fa849a59e7bc63d54d3dc009",
+    "path": "OlympiadBench/TP_MM_physics_en_COMP/TP_MM_physics_en_COMP.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "019801974603ca61d4286b1fece60b514851b310",
+    "size": 1055844,
+    "lfs": {
+      "oid": "810ac3f7ba898d96e2143d9bed1dc15efe4faabbd9e2477a4e2e78217cf0adbb",
+      "size": 1055844,
+      "pointerSize": 132
+    },
+    "xetHash": "6e5f0084f706494c2e029d63e72e8265789c664e09b836aceab4e02cb2822215",
+    "path": "OlympiadBench/TP_TO_maths_en_COMP/TP_TO_maths_en_COMP.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "c328a600f1cbc487f99536f2f80390df36235530",
+    "size": 164350,
+    "lfs": {
+      "oid": "41e8ce31553c8b1a28f2789598dba8e62030c466491b9f2a86194c2854cc0524",
+      "size": 164350,
+      "pointerSize": 131
+    },
+    "xetHash": "a835a5e1c2f4a7822993c3e89c4b4808157b44113f5c8ec7e4978a87d6723e26",
+    "path": "OlympiadBench/TP_TO_maths_zh_CEE/TP_TO_maths_zh_CEE.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "7ded70f2f123d17abd6ca7331d2e619359902bf9",
+    "size": 168719,
+    "lfs": {
+      "oid": "1a30698e784611ee94646f552f8e37d19a5843deb2f25d4816686dd1a4e62a7d",
+      "size": 168719,
+      "pointerSize": 131
+    },
+    "xetHash": "7d6a4ada48de57688d306950b4a9768eefaf72c00574bc7a0d70002ab0087676",
+    "path": "OlympiadBench/TP_TO_maths_zh_COMP/TP_TO_maths_zh_COMP.parquet"
+  },
+  {
+    "type": "file",
+    "oid": "922c460fbdd63126b9bd5bac62a209fd73fa4d76",
+    "size": 50899,
+    "lfs": {
+      "oid": "fef7f9988e1c0deb1b1376cf089aec99480b3c8e526bfc2e83f1aebaaa278918",
+      "size": 50899,
+      "pointerSize": 130
+    },
+    "xetHash": "a26bb61e22bbe0839a8e3182f7beb7496d1e4b053c26cb90faab496032481f71",
+    "path": "OlympiadBench/TP_TO_physics_en_COMP/TP_TO_physics_en_COMP.parquet"
+  }
+]

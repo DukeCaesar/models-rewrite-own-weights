@@ -1,0 +1,30 @@
+{
+  "math500": {
+    "status": "complete",
+    "files": 1
+  },
+  "aime2024": {
+    "status": "complete",
+    "files": 1
+  },
+  "aime2025": {
+    "status": "complete",
+    "files": 1
+  },
+  "hmmt2025": {
+    "status": "complete",
+    "files": 1
+  },
+  "amc2023": {
+    "status": "complete",
+    "files": 1
+  },
+  "olympiadbench": {
+    "status": "complete",
+    "files": 18
+  },
+  "gpqa-diamond": {
+    "status": "failed",
+    "reason": "401 Client Error. (Request ID: Root=1-6afefb9e-702e835160aa46b46b8bad18;d7022508-f032-461c-8898-80609ab05ab7)\n\nCannot access gated repo for url https://huggingface.co/datasets/Idavidrein/gpqa/resolve/83022cefff930aea54f654c0b282e74b9eeda5c6/gpqa_diamond.csv.\nAccess to dataset Idavidrein/gpqa is restricted. You must have access to it and be authenticated to access it. Please log in."
+  }
+}

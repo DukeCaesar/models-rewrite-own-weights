@@ -1,0 +1,38 @@
+[
+  {
+    "type": "file",
+    "oid": "5c47b9647b822e3540e8af55b998b55cf47a7d6c",
+    "size": 2349,
+    "path": ".gitattributes"
+  },
+  {
+    "type": "file",
+    "oid": "9678554c884947eabf1e62520012fc0e5d2e51a4",
+    "size": 59559119,
+    "lfs": {
+      "oid": "38a99f4a33743665e6990961a9a0072b07f7ac6a74d1555b43c4f82145377cb4",
+      "size": 59559119,
+      "pointerSize": 133
+    },
+    "xetHash": "ba10b0dab38e3000b16c29c3753fd5de511bfd239dbd94237962aed155ae9f45",
+    "path": "MMStar.tsv"
+  },
+  {
+    "type": "file",
+    "oid": "c80033654d246116cb2631e7dc219c25bb7a8589",
+    "size": 4224,
+    "path": "README.md"
+  },
+  {
+    "type": "file",
+    "oid": "23b36718a5ce184382b16067a355744a929fb446",
+    "size": 41798712,
+    "lfs": {
+      "oid": "29afd74b0134cfab083a8909b5358577ab18fd41c1e612031577cfb3635531c2",
+      "size": 41798712,
+      "pointerSize": 133
+    },
+    "xetHash": "05f34b3893a0c202a9d59ead89c43be62895b1654641334fe53d89ccb7c7e98a",
+    "path": "mmstar.parquet"
+  }
+]

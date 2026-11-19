@@ -1,0 +1,16 @@
+{
+  "method": "TF-IDF token bigram/trigram cosine; reference-fitted vocabulary",
+  "threshold": 0.65,
+  "top_k_per_pool_item": 3,
+  "candidates": 206,
+  "pool_hash": "9a597766063dc22926bee88fa60cc8aa2ca56b721fb366bad14318798016d6f2",
+  "source_hashes": {
+    "math500": "f6f827d15ed7f2d204d8a5db7380a289e9190a0795aec83970613c6fc248a6bd",
+    "aime2024": "77be5922c251f6e5760dd8d047d20882ef353a59fbe644b0b35e1ba30f554bc1",
+    "aime2025": "d88df6074f7f5e0514584821fcedca4f9a86732d88d4f0678ed2a14c5f32e8c7",
+    "hmmt2025": "f81666ac19d17f16ca0ed4b6e5a5f7b59be9fda78eba1da94d6feedd1513ba0a",
+    "amc2023": "3349f8bee9afdbdc2031e3ab8c5998163e755d041a1d9b8ac2e44adae1c008d8",
+    "olympiadbench": "e840ed3e4c14fa938f7d8053b225ee0fb2a67e6bc3dfb8e3c2089dc20efa3ac0"
+  },
+  "warning": "Candidate retrieval only; low scores and absence of a candidate do not prove semantic disjointness."
+}
